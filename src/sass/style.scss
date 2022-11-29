@@ -1,0 +1,11 @@
+* {
+    font-family: 'Museo Sans', sans-serif;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
