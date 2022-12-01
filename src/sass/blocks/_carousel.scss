@@ -5,7 +5,7 @@
         position: relative;
         width: 750px;
     }
-    [data-controls=prev], [data-controls=next] {
+    .slick-prev, .slick-next {
         position: absolute;
         border: none;
         background-color: #fff;
@@ -17,8 +17,8 @@
             height: 50px;
         }
     }
-    [data-controls=next] {
+    .slick-next {
         right: -66px;
-        left: auto;
+        left: auto; 
     }
 }
