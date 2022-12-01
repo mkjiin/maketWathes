@@ -1,0 +1,24 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        margin: 0 auto;
+        position: relative;
+        width: 750px;
+    }
+    [data-controls=prev], [data-controls=next] {
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    [data-controls=next] {
+        right: -66px;
+        left: auto;
+    }
+}
